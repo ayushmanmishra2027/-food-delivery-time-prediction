@@ -2,15 +2,11 @@
 
 > Predicting food delivery times using Machine Learning — Linear Regression, Logistic Regression, and Random Forest — with a live Streamlit web app.
 
----
-
-## 📌 Problem Statement
+📌 Problem Statement
 
 Food delivery platforms lose customer trust when delivery times are inaccurate. This project builds a predictive system that estimates delivery time (in minutes) and classifies deliveries as **Fast** or **Delayed** based on real-world factors like distance, traffic, and weather.
 
----
-
-## 📂 Dataset
+ 📂 Dataset
 
 | Feature | Description |
 |---|---|
@@ -22,24 +18,24 @@ Food delivery platforms lose customer trust when delivery times are inaccurate. 
 | Order_Priority | Low / Medium / High |
 | Delivery_Time | Target variable (minutes) |
 
----
+-----------------------------------------------------------------
 
-## 🔧 Tech Stack
+ 🔧 Tech Stack
 
 - **Python** — pandas, numpy, scikit-learn, matplotlib, seaborn
 - **Models** — Linear Regression, Logistic Regression, Random Forest
 - **Deployment** — Streamlit
 - **Environment** — Google Colab / Jupyter Notebook
 
----
+----------------------------------------------------------------
 
-## 🚀 Project Pipeline
+ 🚀 Project Pipeline
 
 ```
 Data Loading → Preprocessing → EDA → Feature Engineering → Modeling → Evaluation → Deployment
 ```
 
-### Step-by-Step
+StepS
 
 1. **Data Preprocessing**
    - Handled missing values via median imputation
@@ -115,16 +111,19 @@ streamlit run app.py
 
 ```
 food-delivery-prediction/
-├── Food_Delivery_Prediction.ipynb   # Main notebook
-├── app.py                           # Streamlit web app
-├── Food_Delivery_Time_Prediction.csv
+├── Food_Delivery_Predictionpr.ipynb
+├── app.py
+├── model_comparison.png
+├── feature_importance.png
+├── actual_vs_predicted_rf.png
+├── confusion_roc.png
 └── README.md
 ```
 
 ---
 
-## 👤 Author
+## 👤 AYUSHMAN MISHRA
 
-**[Your Name]**  
-B.E. Computer Science | NMIT Bengaluru  
-[LinkedIn](#) | [GitHub](#)
+B.E. Computer Science | NMIT Bengaluru
+[LinkedIn](www.linkedin.com/in/ayushman-mishra01) 
+| [GitHub](https://github.com/ayushmanmishra2027)
