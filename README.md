@@ -82,12 +82,7 @@ StepS
 
 ## 🌐 Streamlit App
 
-Run locally:
-
-```bash
-pip install streamlit pandas numpy scikit-learn
-streamlit run app.py
-```
+🌐 Live Demo: https://fooddeliverypredictionnp.streamlit.app
 
 **App Features:**
 - Input distance, weather, traffic, vehicle type, experience
